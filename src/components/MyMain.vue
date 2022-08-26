@@ -20,9 +20,8 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/variables.scss";
 main{
-    // height: calc(100vh - 50px);
-    // background-color: $colorBody ;
-    // padding-top: 50px;
+    background-color: $colorBody ;
+    padding-top: 50px;
  }
 
 </style>

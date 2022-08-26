@@ -1,10 +1,12 @@
 <template>
-<div class="music-card m-3">
+<div class="col">
+<div class="music-card p-3 m-3">
         <img :src="poster" :alt="title">
         <h6 class="text-center text-white pt-3">{{ title }}</h6>
         <div class="info-album text-center text-white-50"> {{ author }} <br> {{ year }} 
         </div> 
 </div> 
+</div>
 </template>
 
 
@@ -43,7 +45,8 @@ export default {
         width: 100%;
         }
         h6{
-            text-transform: uppercase;   
+            text-transform: uppercase;
+            font-size: 0.8 rem;
         }
 
         .info-album{
