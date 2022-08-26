@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <MyHeader/>
+    <MyMain/>
+    <MyFooter/>
+    
    
   </div>
 </template>
@@ -20,7 +24,7 @@ export default {
 </script>
 
 <style lang="scss">
- @import "~bootstrap/scss/bootstrap.scss";
- @import "./styles/variables";
+@import "~bootstrap/scss/bootstrap.scss";
+@import "./styles/variables";
 
- </style>
+</style>
